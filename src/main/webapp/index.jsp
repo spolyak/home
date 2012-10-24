@@ -76,6 +76,12 @@
               <li><a href="http://www.youtube.com/user/spolyak/videos">Youtube (spolyak)</a></li>
               <li><a href="http://www.youtube.com/user/stevepolyak/videos">Youtube (stevepolyak)</a></li>
               <li><a href="http://claimid.com/stevepolyak">Claimid</a></li>
+              <li class="nav-header">Professional</li>
+              <li><a href="http://www.dai.ed.ac.uk/papers/authors/stevep.html">Dept. of AI Papers</a></li>
+              <li><a href="http://scholar.google.com/scholar?q=polyak+planning&ie=UTF-8&oe=UTF-8&hl=en&btnG=Search">Google Scholar</a></li>
+              <li><a href="http://www.dai.ed.ac.uk/groups/ssp/publications.html">Research Group</a>
+              <li><a href="http://isbn.nu/9781580530507/price">Book Chapter</a>
+              <li><a href="http://www.mel.nist.gov/psl/">NIST Process Spec Language</a>
             </ul>
           </div><!--/.well -->
         </div><!--/span-->
