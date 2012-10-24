@@ -1,0 +1,83 @@
+To generate the start scripts simply run:
+
+$ mvn package
+And then simply run the script:
+
+$ sh target/bin/webapp
+That’s it. Your application should start up on port 8080. You can see the JSP at http://localhost:8080 and the servlet and http://localhost:8080/hello
+
+Create a Procfile
+
+You declare how you want your application executed in Procfile in the project root. Create this file with a single line:
+
+web: sh target/bin/webapp
+Learn more about procfile.
+
+Optionally Choose a JDK
+
+By default, OpenJDK 1.6 is installed with your app. However, you can choose to use a newer JDK by specifying java.runtime.version=1.7 in the system.properties file.
+
+Here’s what a system.properties file looks like:
+
+java.runtime.version=1.7
+You can specify 1.6, 1.7, or 1.8 (1.8 is in beta) for Java 6, 7, or 8 (with lambdas), respectively.
+
+
+
+
+Deploy to Heroku
+
+Commit your changes to Git:
+
+$ git init
+$ git add .
+$ git commit -m "Ready to deploy"
+Create the app:
+
+$ heroku create
+Creating high-lightning-129... done, stack is cedar
+http://high-lightning-129.herokuapp.com/ | git@heroku.com:high-lightning-129.git
+Git remote heroku added
+Deploy your code:
+
+$ git push heroku master
+Counting objects: 227, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (117/117), done.
+Writing objects: 100% (227/227), 101.06 KiB, done.
+Total 227 (delta 99), reused 220 (delta 98)
+
+-----> Heroku receiving push
+-----> Java app detected
+-----> Installing Maven 3.0.3..... done
+-----> Installing settings.xml..... done
+-----> executing .maven/bin/mvn -B -Duser.home=/tmp/build_1jems2so86ck4 -s .m2/settings.xml -DskipTests=true clean install
+       [INFO] Scanning for projects...
+       [INFO]                                                                         
+       [INFO] ------------------------------------------------------------------------
+       [INFO] Building petclinic 0.1.0.BUILD-SNAPSHOT
+       [INFO] ------------------------------------------------------------------------
+       ...
+       [INFO] ------------------------------------------------------------------------
+       [INFO] BUILD SUCCESS
+       [INFO] ------------------------------------------------------------------------
+       [INFO] Total time: 36.612s
+       [INFO] Finished at: Tue Aug 30 04:03:02 UTC 2011
+       [INFO] Final Memory: 19M/287M
+       [INFO] ------------------------------------------------------------------------
+-----> Discovering process types
+       Procfile declares types -> web
+-----> Compiled slug size is 62.7MB
+-----> Launching... done, v5
+       http://pure-window-800.herokuapp.com deployed to Heroku
+Congratulations! Your web app should now be up and running on Heroku. Open it in your browser with:
+
+$ heroku open
+This will show your your JSP and then you can navigate to /hello to see your servlet.
+
+Clone the source
+
+If you want to skip the creation steps you can clone the finished sample:
+
+$ git clone git@github.com:heroku/devcenter-embedded-tomcat.git
+
