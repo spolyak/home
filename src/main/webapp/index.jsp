@@ -91,21 +91,21 @@
   			  <!-- Carousel items -->
   			  <div class="carousel-inner">
     			<div class="active item">
-    			  <img src="../assets/img/steve/c2.jpg"/>
+    			  <img src="../assets/img/steve/c2.png"/>
     			  <div class="carousel-caption">
                       <h4>Work</h4>
                       <p></p>
                     </div>
     			</div>
     			<div class="item">
-    			  <img src="../assets/img/steve/c0.jpg"/>
+    			  <img src="../assets/img/steve/c0.png"/>
     			  <div class="carousel-caption">
                       <h4>Family</h4>
                       <p></p>
                     </div>
     			</div>
      			<div class="item">
-    			  <img src="../assets/img/steve/c1.jpg"/>
+    			  <img src="../assets/img/steve/c1.png"/>
     			  <div class="carousel-caption">
                       <h4>Cycling</h4>
                       <p></p>
