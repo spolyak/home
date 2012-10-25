@@ -76,6 +76,7 @@
               <li><a href="http://www.youtube.com/user/spolyak/videos">Youtube (spolyak)</a></li>
               <li><a href="http://www.youtube.com/user/stevepolyak/videos">Youtube (stevepolyak)</a></li>
               <li><a href="http://claimid.com/stevepolyak">Claimid</a></li>
+              <li><a href="https://github.com/spolyak">Github</a></li>
               <li class="nav-header">Professional</li>
               <li><a href="http://www.dai.ed.ac.uk/papers/authors/stevep.html">Dept. of AI Papers</a></li>
               <li><a href="http://scholar.google.com/scholar?q=polyak+planning&ie=UTF-8&oe=UTF-8&hl=en&btnG=Search">Google Scholar</a></li>
