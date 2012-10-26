@@ -53,7 +53,7 @@
             </p>
             <s:url var="uri"/>
             <ul class="nav">
-              <li <s:if test="%{#uri == '/'}"> class="active"</s:if>><a href="/">Home <s:property value="%{#request.requestURI}"/></a></li>
+              <li <s:if test="%{#uri.length() < 2}"> class="active" </s:if>><a href="/">Home</a></li>
               <li <s:if test="%{#uri == '/projects.action'}"> class="active" </s:if>><a href="/projects">Projects</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
