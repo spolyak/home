@@ -1,6 +1,6 @@
 <%@include file="head.jsp" %>
 
-        <div class="span6">
+        <div class="span9">
           <div class="hero-unit">
             <div id="myCarousel" class="carousel slide">
   			  <!-- Carousel items -->
@@ -34,28 +34,6 @@
             <p></p>
             <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
           </div>
-          
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Work</h2>
-              <p>Software developer at Pearson.  </p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Family</h2>
-              <p>Married to Amy Sundermann, Children: Lucy and Joey.</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Education</h2>
-              <p>Ph.D. University of Edinburgh, M.Sc. DePaul, B.Sc. University of Iowa.</p>
-              <p><a class="btn" href="#">View details &raquo;</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
-        </div><!--/span-->
-        <div class="span3">
-        </div><!--/span-->
-      </div><!--/row-->
 
 <%@include file="footer.jsp" %>
  
