@@ -77,6 +77,7 @@
               <li><a href="http://www.flickr.com/photos/spolyak">Flickr</a></li>
               <li><a href="http://www.youtube.com/user/spolyak/videos">Youtube (spolyak)</a></li>
               <li><a href="http://www.youtube.com/user/stevepolyak/videos">Youtube (stevepolyak)</a></li>
+              <li><a href="http://soundcloud.com/spolyak">SoundCloud</a></li>              
               <li><a href="http://claimid.com/stevepolyak">Claimid</a></li>
               <li><a href="https://github.com/spolyak">Github</a></li>
               <li class="nav-header">Professional</li>
